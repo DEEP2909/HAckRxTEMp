@@ -1,0 +1,48 @@
+# FastAPI and Core Dependencies
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# HTTP Client
+httpx
+
+# Document Processing
+PyPDF2
+pdfplumber
+python-docx
+beautifulsoup4
+lxml
+
+# AI and ML
+openai
+langchain
+langchain-openai
+tiktoken
+tenacity
+
+# Vector Storage
+faiss-cpu
+pinecone
+numpy
+
+# Database (if needed)
+asyncpg
+sqlalchemy
+
+# Logging
+loguru
+
+# Security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# Utilities
+python-dotenv
+
+# Development (optional)
+pytest
+pytest-asyncio
+black
+isort
